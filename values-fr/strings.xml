@@ -10,7 +10,7 @@
     <!ENTITY font_cyan "&lt;font color=&quot;#00FFFF&quot;&gt;">
     <!ENTITY font_black "&lt;font color=&quot;#000000&quot;&gt;">
     <!ENTITY font_black_low "&lt;font color=&quot;#777777&quot;&gt;">
-    <!ENTITY font_asterisk_level "&lt;font color=&quot;#00FFFF&quot;&gt;">
+    <!ENTITY font_asterisk_level "&lt;font color=&quot;#8BC34A&quot;&gt;">
     <!ENTITY font_asterisk_main_story "&lt;font color=&quot;#F44336&quot;&gt;">
     <!ENTITY font_asterisk_void_master "&lt;font color=&quot;#C500FF&quot;&gt;">
     <!ENTITY font_asterisk_creator "&lt;font color=&quot;#FFEB3B&quot;&gt;">
@@ -442,10 +442,10 @@
     <string name="material_bronze_eq">&font_bronze;Bronze&font_end;</string>
     <string name="material_silver_eq">&font_silver;Argent&font_end;</string>
     <string name="material_gold_eq">&font_gold;Or&font_end;</string>
-    <string name="material_diamond_eq">&font_diamond;Diamand&font_end;</string>
+    <string name="material_diamond_eq">&font_diamond;Diamant&font_end;</string>
     <string name="material_obsidian_eq">&font_obsidian;Obsidienne&font_end;</string>
     <string name="material_glassbottle">Bouteille de &font_glass;Verre&font_end;</string>
-    <string name="material_silver_ore">Minerai de&font_silver;Silver&font_end;</string>
+    <string name="material_silver_ore">Minerai d\'&font_silver;Argent&font_end;</string>
     <string name="material_gold_ore">Minerai d\'&font_gold;Or&font_end;</string>
     <string name="material_copper_bar">Lingot de &font_copper;Cuivre&font_end;</string>
     <string name="material_tin_bar">Lingot de &font_tin;Tin&font_end;</string>
@@ -456,7 +456,7 @@
     <string name="material_diamond">&font_diamond;Diamand&font_end;</string>
     <string name="material_obsidian">&font_obsidian;Obsidienne&font_end;</string>
     <string name="material_gunpowder">&font_gunpowder;Poudre à canon&font_end;</string>
-    <string name="material_ash">&font_ash;Ash&font_end;</string>
+    <string name="material_ash">&font_ash;Cendre&font_end;</string>
     <string name="material_date">&font_date;Date&font_end;</string>
     <string name="material_nut">&font_nut;Noix&font_end;</string>
     <string name="material_stone">&font_stone;Pierre&font_end;</string>
@@ -490,7 +490,7 @@
     <string name="material_yin">&font_black_low;Yin&font_end;</string>
     <string name="material_yang">&font_white;Yang&font_end;</string>
     <string name="material_volcanic_stone">&font_stone;Pierre&font_end; &font_volcano;Volcanique&font_end;</string>
-    <string name="material_icy_stone">&font_stone;Pierre&font_end; &font_icy;Gelé&font_end;</string>
+    <string name="material_icy_stone">&font_stone;Pierre&font_end; &font_icy;Gelée&font_end;</string>
 
     <string name="item_info_material_edible">Peut être consommé pour récupérer &font_hunger;%1$d &font_end;de faim.</string>
     <string name="item_info_royal_seal">Un &font_gold;Sceau Royal&font_end; pouvant être utilisé pour acheter quelque chose de très spéciale…</string>
@@ -513,14 +513,14 @@
         dans un &font_cyan;Endroit &font_end; pour &font_cyan;Pêcher&font_end;</string>
     <string name="item_info_tool_net">Utilise ça pour capturer un &font_insect;insecte&font_end;.</string>
     <string name="item_info_tool_skinning_knife">Utilise ça pour &font_skin;découper &font_end;un &font_green;corps de monstre &font_end;pour essayer d\'obtenir sa &font_skin;Peau&font_end;.</string>
-    <string name="item_info_tool_meat_cleaver">Utilise ça hacher un &font_green;corps de monstre &font_end;et essayer d\'obtenir de la &font_green;Chair de Monstre&font_end;.</string>
+    <string name="item_info_tool_meat_cleaver">Utilise ça pour hacher un &font_green;corps de monstre &font_end;et essayer d\'obtenir de la &font_green;Chair de Monstre&font_end;.</string>
     <string name="item_info_monster_flesh_edible">Consomme ceci pour diminuer ta faim de &font_green;%1$d&font_end;.</string>
     <string name="item_info_monster_flesh_not_edible">Cuisine ça dans un &font_attack;Feu de camp &font_end;pour être capable de le manger.</string>
     <string name="item_info_nautical_chart">Utilisé par les marins pour naviguer vers un &font_cyan;type&font_end;
         d\'île bien précis.</string>
     <string name="item_info_whetstone">Utilise cet objet pour réparer n\'importe quel &font_cyan;Outil&font_end;.</string>
     <string name="item_info_pet_collar">Dirige toi vers la liste des &font_pet;Compagnons&font_end;
-        pour pouvoir le mettre sur un &font_pet;Compagnon &font_end;et être capable de le renommer!</string>
+        pour pouvoir le mettre sur un &font_pet;Compagnon &font_end;et être capable de le renommer !</string>
     <string name="item_info_magic_stone">Utilise ceci pour échanger la force et l\'intelligence de n\'importe quel équipement.</string>
     <string name="item_info_island_soul">La mystérieuse âme de l\'île…</string>
     <string name="item_info_spellbook">Lit ce livre pour maîtriser le sort qu\'il contient: %1$s.</string>
@@ -542,11 +542,11 @@
     <string name="item_info_equipment_intelligence">Intélligence: &font_mana;%1$d&font_end;</string>
     <string name="item_info_iron_bucket_empty">Remplis le d\'eau ou autres types de liquides…</string>
     <string name="item_info_iron_bucket_water">Balance ça sur un &font_attack;Feu de Camp &font_end;
-        pour l\'éteindre ou sur un &font_red;monstre &font_end;lors d\'un affrontement!</string>
-    <string name="item_info_purifying_seed">Plante cette graine et arrose le avec un &font_iron;Seau &font_end;d\'&font_water;Eau&font_end;
+        pour l\'éteindre ou sur un &font_red;monstre &font_end;lors d\'un affrontement !</string>
+    <string name="item_info_purifying_seed">Plante cette graine et arrose la avec un &font_iron;Sceau &font_end;d\'&font_water;Eau&font_end;
         pour la faire grandir en un &font_wood;Arbre&font_end; de &font_purifying;Purification&font_end;.&br;&br;Un &font_wood;Arbre&font_end;
         de &font_purifying;Purification&font_end; empêche &italic;l\'apparition &italic_end;de créatures hostile sur l\'île.</string>
-    <string name="item_info_iron_bucket_lava">Balance ça sur un &font_red;monstre&font_end; lors d\'un affrontement!</string>
+    <string name="item_info_iron_bucket_lava">Balance ça sur un &font_red;monstre&font_end; lors d\'un affrontement !</string>
     <string name="item_info_iron_bucket_mana">Permet la récupération de &font_mana;mana&font_end; en le consommant.</string>
     <string name="item_info_a_letter_for_the_king">Il y a un &font_gold;Sceau Royal&font_end;
         dessus, il serait préférable de la ramener au &font_gold;Roi&font_end;.</string>
@@ -559,13 +559,13 @@
     <string name="materialsource_fish">Spot de pêche</string>
     <string name="materialsource_insect">Insecte</string>
 
-    <string name="tools_butchered_monster_corpse">%1$s découpé !</string>
+    <string name="tools_butchered_monster_corpse">%1$s découpé !</string>
     <string name="tools_used_tool">%1$s est utilisé.</string>
-    <string name="tools_repaired_tool">%1$s réparé !</string>
+    <string name="tools_repaired_tool">%1$s réparé !</string>
     <string name="tool_chopping_axe">&font_wood;Hache&font_end;</string>
     <string name="tool_pickaxe">&font_silver;Pioche&font_end;</string>
     <string name="tool_fishing_rod">Canne à &font_cyan;Pêche&font_end;</string>
-    <string name="tool_broke">%1$s se brise!</string>
+    <string name="tool_broke">%1$s se brise !</string>
     <string name="tool_action_chopping">&font_wood;Coupage de l\'arbre&font_end;</string>
     <string name="tool_action_mining">&font_silver;Minage&font_end;</string>
     <string name="tool_action_fishing">&font_cyan;Pêchage&font_end;</string>
@@ -587,8 +587,8 @@
     <string name="text_armor_magic_head">Casque &font_mana;Magique&font_end;</string>
     <string name="text_armor_magic_body">Plastron &font_mana;Magique&font_end;</string>
     <string name="text_armor_magic_legs">Jambière &font_mana;Magique&font_end;</string>
-    <string name="text_armor_magic_feet">Bottes &font_mana;Magique&font_end;</string>
-    <string name="text_armor_magic_hands">Gants &font_mana;Magique&font_end;</string>
+    <string name="text_armor_magic_feet">Bottes &font_mana;Magiques&font_end;</string>
+    <string name="text_armor_magic_hands">Gants &font_mana;Magiques&font_end;</string>
     <string name="text_armor_magic_neck">Amulette &font_mana;Magique&font_end;</string>
     <string name="text_armor_magic_finger">Anneau &font_mana;Magique&font_end;</string>
 
@@ -596,23 +596,23 @@
     <string name="tile_type_ocean">Océan</string>
     <string name="tile_type_beach">Plage</string>
     <string name="tile_type_lake">Lac</string>
-    <string name="tile_type_barrens">Barrens</string>
+    <string name="tile_type_barrens">Landes</string>
     <string name="tile_type_plain">Plaine</string>
     <string name="tile_type_forest">Forêt</string>
     <string name="tile_type_mountain">Montagne</string>
-    <string name="tile_type_icy_mountain">Montagne Glacé</string>
+    <string name="tile_type_icy_mountain">Montagne Glacée</string>
     <string name="tile_type_cave">Cave</string>
     <string name="tile_type_green_cave">Cave Verte</string>
     <string name="tile_type_desert">Désert</string>
     <string name="tile_type_cloud">Nuage</string>
     <string name="tile_type_heaven">Paradis</string>
-    <string name="tile_type_silver_throne">Throne d\'Argent</string>
+    <string name="tile_type_silver_throne">Trône d\'Argent</string>
     <string name="tile_type_swamp">Marais</string>
     <string name="tile_type_savanna">Savanne</string>
     <string name="tile_type_jungle">Jungle</string>
     <string name="tile_type_mesa">Mesa</string>
     <string name="tile_type_taiga">Taiga</string>
-    <string name="tile_type_tundra">Tundra</string>
+    <string name="tile_type_tundra">Toundra</string>
     <string name="tile_type_volcano">Volcan</string>
     <string name="tile_type_lava">Lave</string>
     <string name="tile_type_deadland">Plaine Morte</string>
@@ -632,7 +632,7 @@
     <string name="tile_type_tyrant_quarters">Les quartiers du Tyrant</string>
     <string name="tile_type_oasis">Oasis</string>
     <string name="tile_type_pyramid">Pyramide</string>
-    <string name="tile_type_frozen_cave">Cave gelé</string>
+    <string name="tile_type_frozen_cave">Cave gelée</string>
     <string name="tile_type_city">Grande Ville</string>
     <string name="tile_type_town">Ville</string>
     <string name="tile_type_village">Village</string>
@@ -671,7 +671,7 @@
     <string name="item_silver_sword">Épée en &font_silver;Argent&font_end;</string>
     <string name="item_gold_sword">Épée en &font_gold;Or&font_end;</string>
 
-    <string name="item_diamond_sword">Épée en &font_diamond;Diamand&font_end;</string>
+    <string name="item_diamond_sword">Épée en &font_diamond;Diamant&font_end;</string>
     <string name="item_obsidian_sword">Épée en &font_obsidian;Obsidienne&font_end;</string>
     <string name="item_wood_dagger">Dague en &font_wood;Bois&font_end;</string>
     <string name="item_bone_dagger">Dague en &font_bone;Os&font_end;</string>
@@ -682,7 +682,7 @@
     <string name="item_silver_dagger">Dague en &font_silver;Argent&font_end;</string>
     <string name="item_gold_dagger">Dague en &font_gold;Or&font_end;</string>
 
-    <string name="item_diamond_dagger">Dague en &font_diamond;Diamand&font_end;</string>
+    <string name="item_diamond_dagger">Dague en &font_diamond;Diamant&font_end;</string>
     <string name="item_obsidian_dagger">Dague en &font_obsidian;Obsidienne&font_end;</string>
     <string name="item_wood_spear">Lance en &font_wood;Bois&font_end;</string>
     <string name="item_bone_spear">Lance en &font_bone;Os&font_end;</string>
@@ -704,7 +704,7 @@
     <string name="item_silver_axe">Hache en &font_silver;Argent&font_end;</string>
     <string name="item_gold_axe">Hache en &font_gold;Or&font_end;</string>
 
-    <string name="item_diamond_axe">Hache en &font_diamond;Diamand&font_end;</string>
+    <string name="item_diamond_axe">Hache en &font_diamond;Diamant&font_end;</string>
     <string name="item_obsidian_axe">Hache en &font_obsidian;Obsidienne&font_end;</string>
     <string name="item_wood_mace">Mace en &font_wood;Bois&font_end;</string>
     <string name="item_bone_mace">Mace en &font_bone;Os&font_end;</string>
@@ -714,7 +714,7 @@
     <string name="item_bronze_mace">Mace en &font_bronze;Bronze&font_end;</string>
     <string name="item_silver_mace">Mace en &font_silver;Argent&font_end;</string>
     <string name="item_gold_mace">Mace en &font_gold;Or&font_end;</string>
-    <string name="item_diamond_mace">Mace en &font_diamond;Diamand&font_end;</string>
+    <string name="item_diamond_mace">Mace en &font_diamond;Diamant&font_end;</string>
     <string name="item_obsidian_mace">Mace en &font_obsidian;Obsidienne&font_end;</string>
 
     <string name="item_volcanic_sword">Épée &font_volcano;Volcanique&font_end;</string>
@@ -737,7 +737,7 @@
     <string name="text_bronze_shield">Bouclier en &font_bronze;Bronze&font_end;</string>
     <string name="text_silver_shield">Bouclier en &font_silver;Argent&font_end;</string>
     <string name="text_gold_shield">Bouclier en &font_gold;Or&font_end;</string>
-    <string name="text_diamond_shield">Bouclier en &font_diamond;Diamand&font_end;</string>
+    <string name="text_diamond_shield">Bouclier en &font_diamond;Diamant&font_end;</string>
     <string name="text_obsidian_shield">Bouclier en &font_obsidian;Obsidienne&font_end;</string>
     <string name="text_wood_helmet">Casque en &font_wood;Bois&font_end;</string>
     <string name="text_leather_helmet">Casque en &font_leather;Cuir&font_end;</string>
@@ -748,7 +748,7 @@
     <string name="text_bronze_helmet">Casque en &font_bronze;Bronze&font_end;</string>
     <string name="text_silver_helmet">Casque en &font_silver;Argent&font_end;</string>
     <string name="text_gold_helmet">Casque en &font_gold;Or&font_end;</string>
-    <string name="text_diamond_helmet">Casque en &font_diamond;Diamand&font_end;</string>
+    <string name="text_diamond_helmet">Casque en &font_diamond;Diamant&font_end;</string>
     <string name="text_obsidian_helmet">Casque en &font_obsidian;Obsidienne&font_end;</string>
     <string name="text_wood_plate">Plastron en &font_wood;Bois&font_end;</string>
     <string name="text_leather_plate">Plastron en &font_leather;Cuir&font_end;</string>
@@ -759,7 +759,7 @@
     <string name="text_bronze_plate">Plastron en &font_bronze;Bronze&font_end;</string>
     <string name="text_silver_plate">Plastron en &font_silver;Argent&font_end;</string>
     <string name="text_gold_plate">Plastron en &font_gold;Or&font_end;</string>
-    <string name="text_diamond_plate">Plastron en &font_diamond;Diamond&font_end;</string>
+    <string name="text_diamond_plate">Plastron en &font_diamond;Diamant&font_end;</string>
     <string name="text_obsidian_plate">Plastron en &font_obsidian;Obsidienne&font_end;</string>
     <string name="text_wood_pants">Jambière en &font_wood;Bois&font_end;</string>
     <string name="text_leather_pants">Jambière en &font_leather;Cuir&font_end;</string>
@@ -770,7 +770,7 @@
     <string name="text_bronze_pants">Jambière en &font_bronze;Bronze&font_end;</string>
     <string name="text_silver_pants">Jambière en &font_silver;Argent&font_end;</string>
     <string name="text_gold_pants">Jambière en &font_gold;Or&font_end;</string>
-    <string name="text_diamond_pants">Jambière en &font_diamond;Diamand&font_end;</string>
+    <string name="text_diamond_pants">Jambière en &font_diamond;Diamant&font_end;</string>
     <string name="text_obsidian_pants">Jambière en &font_obsidian;Obsidienne&font_end;</string>
     <string name="text_wood_boots">Bottes en &font_wood;Bois&font_end;</string>
     <string name="text_leather_boots">Bottes en &font_leather;Cuir&font_end;</string>
@@ -781,7 +781,7 @@
     <string name="text_bronze_boots">Bottes en &font_bronze;Bronze&font_end;</string>
     <string name="text_silver_boots">Bottes en &font_silver;Argent&font_end;</string>
     <string name="text_gold_boots">Bottes en &font_gold;Or&font_end;</string>
-    <string name="text_diamond_boots">Bottes en &font_diamond;Diamand&font_end;</string>
+    <string name="text_diamond_boots">Bottes en &font_diamond;Diamant&font_end;</string>
     <string name="text_obsidian_boots">Bottes en &font_obsidian;Obsidienne&font_end;</string>
     <string name="text_wood_gloves">Gantelets en &font_wood;Bois&font_end;</string>
     <string name="text_leather_gloves">Gantelets en &font_leather;Cuir&font_end;</string>
@@ -792,7 +792,7 @@
     <string name="text_bronze_gloves">Gantelets en &font_bronze;Bronze&font_end;</string>
     <string name="text_silver_gloves">Gantelets en &font_silver;Argent&font_end;</string>
     <string name="text_gold_gloves">Gantelets en &font_gold;Or&font_end;</string>
-    <string name="text_diamond_gloves">Gantelets en &font_diamond;Diamand&font_end;</string>
+    <string name="text_diamond_gloves">Gantelets en &font_diamond;Diamant&font_end;</string>
     <string name="text_obsidian_gloves">Gantelets en &font_obsidian;Obsidienne&font_end;</string>
     <string name="text_wood_amulet">Amulette en &font_wood;Bois&font_end;</string>
     <string name="text_leather_amulet">Amulette en &font_leather;Cuir&font_end;</string>
@@ -803,7 +803,7 @@
     <string name="text_bronze_amulet">Amulette en &font_bronze;Bronze&font_end;</string>
     <string name="text_silver_amulet">Amulette en &font_silver;Argent&font_end;</string>
     <string name="text_gold_amulet">Amulette en &font_gold;Or&font_end;</string>
-    <string name="text_diamond_amulet">Amulette en &font_diamond;Diamand&font_end;</string>
+    <string name="text_diamond_amulet">Amulette en &font_diamond;Diamant&font_end;</string>
     <string name="text_obsidian_amulet">Amulette en &font_obsidian;Obsidienne&font_end;</string>
     <string name="text_wood_ring">Anneau en &font_wood;Bois&font_end;</string>
     <string name="text_leather_ring">Anneau en &font_leather;Cuir&font_end;</string>
@@ -814,14 +814,14 @@
     <string name="text_bronze_ring">Anneau en &font_bronze;Bronze&font_end;</string>
     <string name="text_silver_ring">Anneau en &font_silver;Argent&font_end;</string>
     <string name="text_gold_ring">Anneau en &font_gold;Or&font_end;</string>
-    <string name="text_diamond_ring">Anneau en &font_diamond;Diamand&font_end;</string>
+    <string name="text_diamond_ring">Anneau en &font_diamond;Diamant&font_end;</string>
     <string name="text_obsidian_ring">Anneau en &font_obsidian;Obsidienne&font_end;</string>
 
     <string name="bomb_normal">&font_bomb;Bombe&font_end;</string>
     <string name="bomb_fire">&font_bomb;Bombe&font_end; de &font_attack;Feu&font_end;</string>
     <string name="bomb_ice">&font_bomb;Bombe&font_end; de &font_ice;Glace&font_end;</string>
     <string name="bomb_electric">&font_bomb;Bombe&font_end; &font_electric;Électrique&font_end;</string>
-    <string name="bomb_you_throw_the_bomb_to">Tu as balancé une %1$s sur %2$s! %3$s Reçoit &font_red;%4$d &font_end;de dégat!</string>
+    <string name="bomb_you_throw_the_bomb_to">Tu as balancé une %1$s sur %2$s ! %3$s Reçoit &font_red;%4$d &font_end;de dégat !</string>
 
     <string name="food_green_salad">Salade &font_plant;Verte&font_end;</string>
     <string name="food_eye_soup">Soupe d\'&font_swamp;Yeux&font_end;</string>
@@ -834,7 +834,7 @@
     <string name="food_marrow">e &font_bone;Courge&font_end;</string>
     <string name="food_meat_stick">&font_copper;Viande&font_end;
         sur un &font_wood;Bâton&font_end;</string>
-    <string name="food_vegetable_stick">&font_plant;Végétaux&font_end; accroché à un &font_wood;Bâton&font_end;</string>
+    <string name="food_vegetable_stick">&font_plant;Végétaux&font_end; accrochés à un &font_wood;Bâton&font_end;</string>
     <string name="food_milk">Lait</string>
     <string name="food_cereal">Céréale</string>
     <string name="food_fruit">Fruit</string>
@@ -855,74 +855,74 @@
     <string name="level_up_inventory_increase">&br;Ta &font_gold;Capacité de stockage &font_end;est à &font_gold;%1$d&font_end;</string>
     <string name="level_up_pets_increase">&br;Ta &font_pet;Capacité d\'élevage&font_end;
         est à &font_gold;%1$d&font_end;</string>
-    <string name="level_up_skill_point">&br;Tu as reçus &font_cyan;%1$d &font_end;de Point de Compétence.</string>
+    <string name="level_up_skill_point">&br;Tu as reçu &font_cyan;%1$d &font_end;de Point de Compétence.</string>
 
     <string name="combat_monster_attacked_player">&font_red;%1$s &font_end;t\'attaque!&br;Tu reçois &font_red;%2$d &font_end;de dégats!</string>
-    <string name="combat_monster_action_attacked_player">&font_red;%1$s &font_end;t\'attaque avec son &font_red;%2$s&font_end;!&br;Tu reçois &font_red;%3$d &font_end;de dégats!</string>
-    <string name="combat_player_attacked_monster_damage">Tu attaques!&br;&font_red;%1$s &font_end;reçoit &font_red;%2$d &font_end;de dégats!</string>
-    <string name="combat_player_skill_dealt_damage">&font_red;%1$s &font_end;reçoit &font_red;%2$d &font_end;de dégats!</string>
-    <string name="combat_player_skill_restored_health">Tu régénères &font_health;%1$d &font_end;de point de vie!</string>
-    <string name="combat_player_skill_restored_mana">Tu régénères &font_mana;%1$d &font_end;de point de mana!</string>
-    <string name="combat_player_skill_dealt_damage_n_times">Tu as frappé &font_cyan;%1$d &font_end;fois! &font_red;%2$s &font_end;reçoit &font_red;%3$d &font_end;de dégats!</string>
-    <string name="combat_player_skill_attacks_first">Tu attaques le premier!</string>
-    <string name="combat_dont_know_any_skill">Tu ne connais aucunes &font_skill_attack;Compétences&font_end;!</string>
+    <string name="combat_monster_action_attacked_player">&font_red;%1$s &font_end;t\'attaque avec son &font_red;%2$s&font_end; !&br;Tu reçois &font_red;%3$d &font_end;de dégâts !</string>
+    <string name="combat_player_attacked_monster_damage">Tu attaques !&br;&font_red;%1$s &font_end;reçoit &font_red;%2$d &font_end;de dégats!</string>
+    <string name="combat_player_skill_dealt_damage">&font_red;%1$s &font_end;reçoit &font_red;%2$d &font_end;de dégâts !</string>
+    <string name="combat_player_skill_restored_health">Tu régénères &font_health;%1$d &font_end;de points de vie !</string>
+    <string name="combat_player_skill_restored_mana">Tu régénères &font_mana;%1$d &font_end;de points de mana !</string>
+    <string name="combat_player_skill_dealt_damage_n_times">Tu as frappé &font_cyan;%1$d &font_end;fois ! &font_red;%2$s &font_end;reçoit &font_red;%3$d &font_end;de dégâts !</string>
+    <string name="combat_player_skill_attacks_first">Tu attaques le premier !</string>
+    <string name="combat_dont_know_any_skill">Tu ne connais aucunes &font_skill_attack;Compétences&font_end; !</string>
     <string name="combat_dont_know_any_spell">Aucun &font_mana;Sort&font_end;
-        n\'est maîtrisé!</string>
-    <string name="combat_cant_cast_skill">Tu n\'as pas assez de ressources pour faire ceci!</string>
-    <string name="combat_cant_cast_spell">Tu n\'as pas assez de ressource pour lancer ce sort!</string>
-    <string name="combat_already_captured">Tu l\'as déjà capturé!</string>
-    <string name="combat_cant_carry_more_pets">Tu ne peux pas avoir plus de compagnon!</string>
-    <string name="combat_monster_dead_vanishes">%1$s est réduit en poussière!</string>
-    <string name="combat_monster_attacks">%1$s lance un assaut!</string>
+        n\'est maîtrisé !</string>
+    <string name="combat_cant_cast_skill">Tu n\'as pas assez de ressources pour faire ceci !</string>
+    <string name="combat_cant_cast_spell">Tu n\'as pas assez de ressources pour lancer ce sort !</string>
+    <string name="combat_already_captured">Tu l\'as déjà capturé !</string>
+    <string name="combat_cant_carry_more_pets">Tu ne peux pas avoir plus de compagnons !</string>
+    <string name="combat_monster_dead_vanishes">%1$s est réduit en poussière !</string>
+    <string name="combat_monster_attacks">%1$s lance un assaut !</string>
     <string name="combat_fight">Combattre</string>
     <string name="combat_player_flee_fails">La tentative d\'évasion à échoué…</string>
-    <string name="combat_player_flee_succeeds">La tentative d\'évasion est réussit!</string>
-    <string name="combat_killed_monster">Tu as vaincus %1$s!</string>
-    <string name="combat_player_is_dead"> &font_cyan;%1$s &font_end;est mort &line_break;au level &font_cyan;%2$d&font_end;!</string>
+    <string name="combat_player_flee_succeeds">La tentative d\'évasion est réussie !</string>
+    <string name="combat_killed_monster">Tu as vaincu %1$s !</string>
+    <string name="combat_player_is_dead"> &font_cyan;%1$s &font_end;est mort &line_break;au niveau &font_cyan;%2$d&font_end; !</string>
     <string name="combat_corpse_name">Cadavre de %1$s</string>
     <string name="combat_monster_attacking_symbol">-&font_dark_red;A&font_end;-</string>
     <string name="combat_cant_flee_from_monster">Impossible de fuir contre %1$s…</string>
-    <string name="combat_monster_obtained_gold">Tu as obtenus &font_gold;%1$d&font_end;
+    <string name="combat_monster_obtained_gold">Tu as obtenu &font_gold;%1$d&font_end;
         d\'or.</string>
     <string name="combat_monster_obtained_item">Tu as obtenus un(e) %1$s.</string>
-    <string name="combat_you_throw_the_bucket_to">Tu balance le %1$s sur %2$s! %3$s reçoit &font_red;%4$d &font_end;de dégat!</string>
+    <string name="combat_you_throw_the_bucket_to">Tu balance le %1$s sur %2$s ! %3$s reçoit &font_red;%4$d &font_end;de dégâts !</string>
 
-    <string name="villager_text_hello_1" tools:ignore="UnusedResources">Salut!</string>
-    <string name="villager_text_hello_2" tools:ignore="UnusedResources">Salut, héro!</string>
-    <string name="villager_text_hello_3" tools:ignore="UnusedResources">Salut, aventurier!</string>
-    <string name="villager_text_hello_4" tools:ignore="UnusedResources">Bonjour!</string>
-    <string name="villager_text_hello_5" tools:ignore="UnusedResources">Bonjout, aventurier!</string>
-    <string name="villager_text_hello_6" tools:ignore="UnusedResources">Bonjour, héro!</string>
+    <string name="villager_text_hello_1" tools:ignore="UnusedResources">Salut !</string>
+    <string name="villager_text_hello_2" tools:ignore="UnusedResources">Salut, héros !</string>
+    <string name="villager_text_hello_3" tools:ignore="UnusedResources">Salut, aventurier !</string>
+    <string name="villager_text_hello_4" tools:ignore="UnusedResources">Bonjour !</string>
+    <string name="villager_text_hello_5" tools:ignore="UnusedResources">Bonjour, aventurier !</string>
+    <string name="villager_text_hello_6" tools:ignore="UnusedResources">Bonjour, héros !</string>
     <string name="villager_text_hello_7" tools:ignore="UnusedResources">Hey…</string>
     <string name="villager_text_hello_8" tools:ignore="UnusedResources">Hey, aventurier…</string>
-    <string name="villager_text_hello_9" tools:ignore="UnusedResources">Hey, héro…</string>
-    <string name="villager_text_hello_10" tools:ignore="UnusedResources">Ravi de vous rencontrer!</string>
-    <string name="villager_text_hello_11" tools:ignore="UnusedResources">Ravi de vous rencontrer, aventurier!</string>
-    <string name="villager_text_hello_12" tools:ignore="UnusedResources">Ravi de vous rencontrer, héro!</string>
-    <string name="villager_text_hello_13" tools:ignore="UnusedResources">Comment ça se passe ?</string>
-    <string name="villager_text_hello_14" tools:ignore="UnusedResources">Comment ça se passe, aventurier ?</string>
-    <string name="villager_text_hello_15" tools:ignore="UnusedResources">Comment ça se passe, héro?</string>
-    <string name="villager_text_hello_16" tools:ignore="UnusedResources">Comment allez vous ?</string>
-    <string name="villager_text_hello_17" tools:ignore="UnusedResources">Comment allez vous, aventurier ?</string>
-    <string name="villager_text_hello_18" tools:ignore="UnusedResources">Comment allez vous, héro?</string>
+    <string name="villager_text_hello_9" tools:ignore="UnusedResources">Hey, héros…</string>
+    <string name="villager_text_hello_10" tools:ignore="UnusedResources">Ravi de vous rencontrer !</string>
+    <string name="villager_text_hello_11" tools:ignore="UnusedResources">Ravi de vous rencontrer, aventurier !</string>
+    <string name="villager_text_hello_12" tools:ignore="UnusedResources">Ravi de vous rencontrer, héros !</string>
+    <string name="villager_text_hello_13" tools:ignore="UnusedResources">Comment ça se passe ?</string>
+    <string name="villager_text_hello_14" tools:ignore="UnusedResources">Comment ça se passe, aventurier ?</string>
+    <string name="villager_text_hello_15" tools:ignore="UnusedResources">Comment ça se passe, héros ?</string>
+    <string name="villager_text_hello_16" tools:ignore="UnusedResources">Comment allez vous ?</string>
+    <string name="villager_text_hello_17" tools:ignore="UnusedResources">Comment allez vous, aventurier ?</string>
+    <string name="villager_text_hello_18" tools:ignore="UnusedResources">Comment allez vous, héros ?</string>
     <string name="villager_text_hello_19" tools:ignore="UnusedResources">Mmmh…</string>
     <string name="villager_text_hello_20" tools:ignore="UnusedResources">Psss…</string>
-    <string name="villager_text_hello_21" tools:ignore="UnusedResources">Wow!</string>
-    <string name="villager_text_hello_22" tools:ignore="UnusedResources">Oh!</string>
-    <string name="villager_text_hello_23" tools:ignore="UnusedResources">Eh!</string>
-    <string name="villager_text_hello_24" tools:ignore="UnusedResources">Hey!</string>
-    <string name="villager_text_hello_25" tools:ignore="UnusedResources">Ça va ?</string>
-    <string name="villager_text_hello_26" tools:ignore="UnusedResources">Quoi de neuf ?</string>
-    <string name="villager_text_hello_27" tools:ignore="UnusedResources">Quoi de neuf, aventurier ?</string>
-    <string name="villager_text_hello_28" tools:ignore="UnusedResources">Quoi de neuf, héro ?</string>
+    <string name="villager_text_hello_21" tools:ignore="UnusedResources">Wow !</string>
+    <string name="villager_text_hello_22" tools:ignore="UnusedResources">Oh !</string>
+    <string name="villager_text_hello_23" tools:ignore="UnusedResources">Eh !</string>
+    <string name="villager_text_hello_24" tools:ignore="UnusedResources">Hey !</string>
+    <string name="villager_text_hello_25" tools:ignore="UnusedResources">Ça va ?</string>
+    <string name="villager_text_hello_26" tools:ignore="UnusedResources">Quoi de neuf ?</string>
+    <string name="villager_text_hello_27" tools:ignore="UnusedResources">Quoi de neuf, aventurier ?</string>
+    <string name="villager_text_hello_28" tools:ignore="UnusedResources">Quoi de neuf, héros ?</string>
     <string name="villager_text_hello_29" tools:ignore="UnusedResources">S-Salut…</string>
     <string name="villager_text_hello_30" tools:ignore="UnusedResources">Bonjour…</string>
     <string name="villager_text_hello_31" tools:ignore="UnusedResources">…</string>
     <string name="villager_text_hello_32" tools:ignore="UnusedResources">Eh bien…</string>
     <string name="villager_text_hello_33" tools:ignore="UnusedResources">Donc…</string>
-    <string name="villager_text_hello_34" tools:ignore="UnusedResources">Du nouveau ?</string>
-    <string name="villager_text_hello_35" tools:ignore="UnusedResources">Bonne journée !</string>
-    <string name="villager_text_hello_36" tools:ignore="UnusedResources">Yo!</string>
+    <string name="villager_text_hello_34" tools:ignore="UnusedResources">Du nouveau ?</string>
+    <string name="villager_text_hello_35" tools:ignore="UnusedResources">Bonne journée !</string>
+    <string name="villager_text_hello_36" tools:ignore="UnusedResources">Yo !</string>
     <string name="villager_text_hello_37" tools:ignore="UnusedResources">Bonjour.</string>
     <string name="villager_text_hello_38" tools:ignore="UnusedResources">Salut.</string>
     <string name="villager_text_hello_39" tools:ignore="UnusedResources">Hey.</string>
@@ -930,44 +930,44 @@
 
     <string name="villager_i_need_help"><![CDATA[
             J\'ai besoin d\'aide pour un truc…\n
-            Est ce que je peux vous demander une faveur?\n
+            Est ce que je peux vous demander une faveur ?\n
             Je serais très reconnaissant si vous pouviez m\'aider…\n
             J\'ai besoin de vous demander une faveur…\n
-            Pourriez-vous m\'aider pour quelque chose?\n
-            T\'a l\'air de quelqu\'un qui pourrai m\'aider!\n
+            Pourriez-vous m\'aider pour quelque chose ?\n
+            T\'a l\'air de quelqu\'un qui pourrai m\'aider !\n
             Si tu n\'es pas trop occupé, j\'aurai besoin de tes services…\n
-            Pouvez vous m\'aider?\n\n
-            Seriez vous capable de m\'aider?\n
+            Pouvez vous m\'aider ?\n\n
+            Seriez vous capable de m\'aider ?\n
             Ma famille et moi-même serons très reconnaissant si vous pouviez nous aider…\n
             Ma famille et moi-même avons besoin de quelque chose…\n
             Il y a quelque chose que j\'ai besoin…\n
-            Aurait-vous la gentillesse de m\'aider?\n
-            Pourrais-tu me faire une fleur?\n
+            Aurait-vous la gentillesse de m\'aider ?\n
+            Pourrais-tu me faire une fleur ?\n
             J\'ai bien peur d\'avoir besoin de votre aide…\n
             Si ce n\'est pas trop vous demander, j\'aurais besoin de quelque chose…\n
-            Est ce que vous pourriez s\'il vous plaît, nous aider?\n
-            Tu peux me donner un coup de main ?\n
+            Est ce que vous pourriez s\'il vous plaît, nous aider ?\n
+            Tu peux me donner un coup de main ?\n
             Nous avons besoin d\'aide pour quelque chose…\n
             Nous avons besoin de vous demander une faveur…\n
             Je sais qu\'on ne s\'est jamais vu avant, mais j\'ai besoin de vous…\n
             J\'ai ce problème depuis un bon bout de temps, et vous pourriez peut être m\'en débarrasser…\n
-            On est pas habitué a recevoir des étrangers ici… Puis-je vous demander une faveur?\n
-            On est pas habitué a recevoir des étrangers ici… Pourriez vous me donner un coup de main?\n
-            Tu n\'es pas d\'ici n\'est ce pas? Pourriez vous faire quelque chose pour moi?\n
-            Tu n\'es pas d\'ici n\'est ce pas? Pourrais-je vous demander une faveur?\n
-            Bonjour, d\'où viens-tu? Et j\'aurais une faveur a vous demander…\n
-            Si ça ne vous dérange pas trop, pourrais-tu m\'aider pour un truc?\n
-            J\'ai pas mal d\'ennuis et j\'aurai besoin de soutien. Peux-tu m\'aider?\n
-            Avant que tu ne partes, pouvez-vous m\'aider pour quelque chose? C\'est crucial!\n
-            Avant que tu ne partes, peux-tu m\'aider?\n
-            Avant que tu ne partes, veux-tu m\'aider?\n
-            Avant que tu t\'en ailles, peux-tu m\'aider?\n
-            Avant que tu t\'en ailles, veux-tu m\'aider?\n
-            Avant que tu t\'en ailles, Est ce que je pourrais s\'il vous plaît, vous demander une faveur?\n
-            Tu peux m\'aider pour un truc là ?\n
-            Tu peux me donner un coup de main s\'il te plaît?\n
-            Tu peux m\'aider pour quelque chose s\'il te plaît?\n
-            J\'ai entendu dire que tu étais un héro. Pourrais-tu m\'aider pour un truc?\n
+            On est pas habitué a recevoir des étrangers ici… Puis-je vous demander une faveur ?\n
+            On est pas habitué a recevoir des étrangers ici… Pourriez vous me donner un coup de main ?\n
+            Tu n\'es pas d\'ici n\'est ce pas ? Pourriez vous faire quelque chose pour moi ?\n
+            Tu n\'es pas d\'ici n\'est ce pas ? Pourrais-je vous demander une faveur ?\n
+            Bonjour, d\'où viens-tu ? Et j\'aurais une faveur a vous demander…\n
+            Si ça ne vous dérange pas trop, pourrais-tu m\'aider pour un truc ?\n
+            J\'ai pas mal d\'ennuis et j\'aurai besoin de soutien. Peux-tu m\'aider ?\n
+            Avant que tu ne partes, pouvez-vous m\'aider pour quelque chose ? C\'est crucial !\n
+            Avant que tu ne partes, peux-tu m\'aider ?\n
+            Avant que tu ne partes, veux-tu m\'aider ?\n
+            Avant que tu t\'en ailles, peux-tu m\'aider ?\n
+            Avant que tu t\'en ailles, veux-tu m\'aider ?\n
+            Avant que tu t\'en ailles, Est ce que je pourrais s\'il vous plaît, vous demander une faveur ?\n
+            Tu peux m\'aider pour un truc là ?\n
+            Tu peux me donner un coup de main s\'il te plaît ?\n
+            Tu peux m\'aider pour quelque chose s\'il te plaît ?\n
+            J\'ai entendu dire que tu étais un héro. Pourrais-tu m\'aider pour un truc ?\n
                         ]]>
     </string>
 
@@ -976,49 +976,49 @@
             Notre temps est vôtre.\n
             Fais le pour la grosse dame.\n
             À partir de ce moment nous voyageons ensemble à l\'est. Toujours l\'est.\n
-            Restez loin des gens normaux. Ils sont stupide.\n
-            Que nous vaut cette visite inattendu?\n
+            Restez loin des gens normaux. Ils sont stupides.\n
+            Que nous vaut cette visite inattendue ?\n
             Klaatu barada nikto.\n
-            Réveille toi, nous sommes là. Pourquoi trembles-tu ? Tout va bien?\n
-            Ta mission était de récupérer Dr. Durand de Tau Ceti!\n
-            >La bas au périmètre, il n\'y a aucunes étoiles.\n
+            Réveille toi, nous sommes là. Pourquoi trembles-tu ? Tout va bien ?\n
+            Ta mission était de récupérer Dr. Durand de Tau Ceti !\n 
+            >La bas au périmètre, il n\'y a aucune étoile.\n
             >Je peux seulement voir en noir et blanc…\n
             Je me demande pourquoi des fois tu es si peu exigeant.\n
             Tu as besoin de chaos dedans pour qu\'une jolie étoile puisse naître.\n
-            Involving yourself in status quo creativity is counter-revolutionary!\n
+            T\'impliquer dans un travail créatif est contre-révolutionnaire !\n
             Nous avons construit ces pyramides en honneur de notre évasion.\n
-            Aucune récompense éternelle ne nous épargnera maintenant pour arréter la fin.\n
+            Aucune récompense éternelle ne nous épargnera maintenant pour arrêter la fin.\n
             Non billy, c\'est pas possible de vivre sans moelle épinière.\n
             Kain à refusé le sacrifice.\n
-            Tu peux arrêter de blablater?\n
+            Tu peux arrêter de blablater ?\n
             Il y a surment d\'autres univers, mais le notre semble être basé sur la guerre et les jeux vidéos.\n
             Silence, experience shows, is what terrifies people most.\n
-            Si on te demande de te regarder dans un miroir…ne le fais jamais.\n
-            Ne crée jamais quoique ce soit. Ça pourrait être mal interprêté. Ça te suivra pour le restant de tes jours.\n
+            Si on te demande de te regarder dans un miroir… ne le fais jamais.\n
+            Ne crée jamais quoi que ce soit. Ça pourrait être mal interprêté. Ça te suivra pour le restant de tes jours.\n
             Tous les mondes sont a toi, sauf Europe. Essaye pas de débarquer la bas.\n
             Ne prête aucune attention a l\'homme derrière le rideau.\n
-            Allumez toutes les lumières, le roi arrive et rentre au château !\n
+            Allumez toutes les lumières, le roi arrive et rentre au château !\n
             You got more front than Brighton, coming back here!\n
             Sent out like sheep into the midst of wolves, be shrewd as serpents and innocent as doves.\n
             La spécialisation c\'est pour les insectes.\n
             Je met ma robe et mon chapeau de sorcier.\n
             Pourquoi est ce que j\'escalade les montagnes? Parce que j\'en suis amoureux.\n
             Un jour, j\'ai vu un enfant jouer avec un ruby de la taille d\'une mandarine.\n
-            Es-tu le maître des clés?\n
+            Es-tu le maître des clés ?\n
             Si tu as vécu ici, tu devrais te sentir comme chez toi.\n
             Arrête ton sourire et balance ton linge.\n
-            Juste un rappel: ce villageois n\'endosse aucun rôle juridique. Sauf si il y a des résultats. Ce qui sera le cas!\n
+            Juste un rappel: ce villageois n\'endosse aucun rôle juridique. Sauf si il y a des résultats. Ce qui sera le cas !\n
             On dirait bien que t\'as mal choisis ta semaine pour arréter de fûmer.\n
             I wish there was a way to know you were in the good old days before you actually left them.\n
-            Tu ressemble a l\'enfer.\n
+            T\'as vraiment une sale tête.\n
             Donne moa du respet.\n
-            S…s…senpai?\n
-            J\'ai vraiment fais çaaaaa !?\n
+            S…s…senpai ?\n
+            J\'ai vraiment fais çaaaaa !?\n
             Meep.\n
-            N\'oublie pas te t\'abonner, de retweeter, de liker, de partager, et d\'upvote ça! Attend… on parlait de quoi déjà?\n
-            Être ou ne pas être bourré, tel est la question…\n
+            N\'oublie pas te t\'abonner, de retweeter, de liker, de partager, et d\'upvote ça ! Attend… on parlait de quoi déjà ?\n
+            Être ou ne pas être bourré, telle est la question…\n
             Qu\'est ce que je peux parfois faire…\n
-            Des fois je rêve et je vois une étrange créature, avec deux bras, nous observer depuis un petit appareil encore plus étrange…\n
+            Des fois je rêve que je vois une étrange créature, avec deux bras, nous observer depuis un petit appareil encore plus étrange…\n
     ]]></string>
 
 
@@ -3651,27 +3651,5 @@
     <string name="blacksmith_material_tiers_message">Oh, you want to know about the material tiers? This is the order:&br;&br;&font_wood;Wood &font_end;-> &font_leather;Leather &font_end;-> &font_copper;Copper &font_end;-> &font_tin;Tin &font_end;-> &font_iron;Iron &font_end;-> &font_bronze;Bronze &font_end;-> &font_silver;Silver &font_end;-> &font_gold;Gold &font_end;-> &font_diamond;Diamond &font_end;-> &font_obsidian;Obsidian &font_end;&br;&br;There are a some other very rare materials but I don\'t think you will ever be able to find them…</string>
     <string name="button_sort_by_can_craft">Sort (can craft)</string>
     <string name="crafting_filter_can_craft">Can Craft</string>
-
-    <string name="ascending">Ascending</string>
-    <string name="button_continue">Continue</string>
-    <string name="button_wake_up">Wake Up</string>
-    <string name="ascended">Ascended!</string>
-
-    <string name="ascended_text">
-        You forget everything but start to feel more powerful…
-        &br;&br;* You obtain &font_cyan;%1$d &font_end;x &asterisk_ascend_color;Ascension &font_end;&font_red;Flame&font_end;
-        &br;* Your max. &font_health;health &font_end;is now &font_health;%2$d&font_end;
-        &br;* Your max. &font_mana;mana &font_end;is now &font_mana;%3$d&font_end;
-        &br;* Your max. &font_hunger;hunger &font_end;is now &font_hunger;%4$d&font_end;
-
-        &br;* Your base &font_attack;attack &font_end;is now &font_attack;%5$d&font_end;
-        &br;* Your base &font_defense;defense &font_end;is now &font_defense;%6$d&font_end;
-        &br;* Your base &font_mana;intelligence &font_end;is now &font_mana;%7$d&font_end;
-        &br;* Your base &font_speed;speed &font_end;is now &font_speed;%8$d&font_end;
-
-        &br;* You start with &font_gold;%9$d gold &font_end;coins
-        &br;* You start with &font_cyan;%10$d &font_end;&font_cyan;Skill Points&font_end;
-        &br;&br;Good luck with your new adventures,&br;%11$s!
-    </string>
 
 </resources>
